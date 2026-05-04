@@ -18,9 +18,27 @@ header h1 {
     margin-bottom: 15px;
 }
 
+header h2 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 15px 0;
+    color: white;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
 header p {
-    margin: 5px 0;
+    margin: 10px 0;
     font-size: 16px;
+    line-height: 1.6;
+}
+
+.header-text {
+    font-size: 18px;
+}
+
+header p:first-of-type {
+    margin-top: 15px;
 }
 
 section {
@@ -52,7 +70,7 @@ footer {
 
 .button {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 14px 24px;
     background: #f7c600;
     color: #14213d;
